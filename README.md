@@ -20,6 +20,8 @@ Some post content...
 `const param = true
 
 console.log(param)`
+
+`const client = () => {}`
 ```
 
 ```javascript
@@ -47,4 +49,10 @@ Some post content...
 const param = true
 console.log(param)
 ```
+
+```
+const client = () => {}
+```
 ````
+
+As you can see `inlineCode` which contained multilines and `inlineCode` that was the only children in `paragraph` were turned into `code` blocks.
