@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Single inlineCode inside blockquote 1`] = `
+"> \`\`\`
+> code
+> \`\`\`
+"
+`;
+
+exports[`ignores is there's more than 1 child in paragraph 1`] = `
+"Some text with \`code\`
+"
+`;
+
+exports[`turnes inlineCode into code 1`] = `
+"Some text with:
+
+\`\`\`
+code
+\`\`\`
+"
+`;
