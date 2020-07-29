@@ -24,6 +24,8 @@ console.log(param)`
 `const client = () => {}`
 ```
 
+And our script, `example.js`, looks as follows:
+
 ```javascript
 const vfile = require('to-vfile')
 const remark = require('remark')

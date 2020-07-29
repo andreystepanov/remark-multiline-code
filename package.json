@@ -13,9 +13,9 @@
   },
   "author": "Andrey Stepanov <code@andrey.co> (https://andrey.co/)",
   "bugs": {
-    "url": "https://github.com/andreystepanov/node-medium/issues"
+    "url": "https://github.com/andreystepanov/remark-multiline-code/issues"
   },
-  "homepage": "https://github.com/andreystepanov/node-medium",
+  "homepage": "https://github.com/andreystepanov/remark-multiline-code",
   "keywords": [
     "remark",
     "code",
