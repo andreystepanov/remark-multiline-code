@@ -1,5 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Ignores if there's some other content in the paragraph 1`] = `
+"\`code\` and some text
+"
+`;
+
 exports[`Single inlineCode inside blockquote 1`] = `
 "> \`\`\`
 > code

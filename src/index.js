@@ -11,8 +11,8 @@ function transform(tree) {
 function onInlineCode(node, index, parent) {
   if (
     parent.type === 'paragraph' &&
-    parent.children &&
-    (parent.children[0] === node || node.value.includes('\n'))
+    ((parent.children.length === 1 && parent.children[0] === node) ||
+      node.value.includes('\n'))
   ) {
     node.type = `code`
   }
