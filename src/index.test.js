@@ -18,11 +18,6 @@ test("ignores is there's more than 1 child in paragraph", () => {
   expect(md).toMatchSnapshot()
 })
 
-test('Single inlineCode inside blockquote', () => {
-  const md = parse('> `code`')
-  expect(md).toMatchSnapshot()
-})
-
 test("Ignores if there's some other content in the paragraph", () => {
   const md = parse('`code` and some text')
   expect(md).toMatchSnapshot()
@@ -30,5 +25,10 @@ test("Ignores if there's some other content in the paragraph", () => {
 
 test('turnes inlineCode into code', () => {
   const md = parse('Some text with:\n\n`code`')
+  expect(md).toMatchSnapshot()
+})
+
+test('ignores inlineCode inside blockquote', () => {
+  const md = parse('> `code`\n\n> Quote\n> > Inner quote\n> > `code`')
   expect(md).toMatchSnapshot()
 })

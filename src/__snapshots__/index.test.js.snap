@@ -5,10 +5,13 @@ exports[`Ignores if there's some other content in the paragraph 1`] = `
 "
 `;
 
-exports[`Single inlineCode inside blockquote 1`] = `
-"> \`\`\`
-> code
-> \`\`\`
+exports[`ignores inlineCode inside blockquote 1`] = `
+"> \`code\`
+
+> Quote
+>
+> > Inner quote
+> > \`code\`
 "
 `;
 
