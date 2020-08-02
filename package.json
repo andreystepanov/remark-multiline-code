@@ -1,6 +1,6 @@
 {
   "name": "remark-multiline-code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Remark plugin to improve `code` blocks",
   "main": "dist/index.js",
   "scripts": {
